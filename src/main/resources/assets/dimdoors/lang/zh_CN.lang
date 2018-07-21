@@ -1,56 +1,154 @@
 #PARSE_ESCAPES
 
+
 itemGroup.dimensional_doors_creative_tab=次元门物品
 
-tile.gold_door.name=金门
+
+tile.gold_door.name=黄金门
 tile.quartz_door.name=石英门
-
-tile.iron_dimensional_door.name=次元门
+tile.iron_dimensional_door.name=铁制次元门
 tile.gold_dimensional_door.name=金制次元门
-tile.quartz_dimensional_door.name=私人次元门
-tile.unstable_dimensional_door.name=不稳定的门
-tile.oak_dimensional_door.name=扭曲之门
-tile.dimensional_trapdoor.name=空间活板门
-tile.dimensional_portal.name=瞬息之门
+tile.quartz_dimensional_door.name=石英次元门
+tile.unstable_dimensional_door.name=不稳定的次元门
+tile.oak_dimensional_door.name=橡木次元门
+tile.dimensional_trapdoor.name=橡木次元活板门
+tile.dimensional_portal.name=次元传送门
+tile.fabric.black.name=事象结构体
+tile.fabric.white.name=活性结构体
+tile.fabric.orange.name=橙色活性结构体
+tile.fabric.magenta.name=品红色活性结构体
+tile.fabric.lightBlue.name=亮蓝色活性结构体
+tile.fabric.yellow.name=黄色活性结构体
+tile.fabric.lime.name=白灰色活性结构体
+tile.fabric.pink.name=粉色活性结构体
+tile.fabric.gray.name=灰色活性结构体
+tile.fabric.silver.name=亮灰色活性结构体
+tile.fabric.cyan.name=青色活性结构体
+tile.fabric.purple.name=紫色活性结构体
+tile.fabric.blue.name=蓝色活性结构体
+tile.fabric.brown.name=棕色活性结构体
+tile.fabric.green.name=绿色活性结构体
+tile.fabric.red.name=红色活性结构体
+tile.ancient_fabric.black.name=远古结构体
+tile.ancient_fabric.white.name=活性远古结构体
+tile.ancient_fabric.orange.name=橙色活性远古结构体
+tile.ancient_fabric.magenta.name=品红色活性远古结构体
+tile.ancient_fabric.lightBlue.name=亮蓝色活性远古结构体
+tile.ancient_fabric.yellow.name=黄色活性远古结构体
+tile.ancient_fabric.lime.name=白灰色活性远古结构体
+tile.ancient_fabric.pink.name=粉色活性远古结构体
+tile.ancient_fabric.gray.name=灰色活性远古结构体
+tile.ancient_fabric.silver.name=亮灰色活性远古结构体
+tile.ancient_fabric.cyan.name=青色活性远古结构体
+tile.ancient_fabric.purple.name=紫色活性远古结构体
+tile.ancient_fabric.blue.name=蓝色活性远古结构体
+tile.ancient_fabric.brown.name=棕色活性远古结构体
+tile.ancient_fabric.green.name=绿色活性远古结构体
+tile.ancient_fabric.red.name=红色活性远古结构体
+tile.eternal_fabric.name=永恒结构体
+tile.unravelled_fabric.name=破碎结构体
+tile.rift.name=裂隙之痕
 
-tile.fabric.black.name=现实之壁
-tile.fabric.white.name=变化之壁
-tile.ancient_fabric.black.name=远古之壁
-tile.eternal_fabric.name=永恒之壁
-tile.unravelled_fabric.name=边境之壁
-tile.rift.name=裂痕
-
-item.gold_door.name=金门
+item.gold_door.name=黄金门
 item.quartz_door.name=石英门
-
-item.iron_dimensional_door.name=次元门
+item.iron_dimensional_door.name=铁制次元门
 item.gold_dimensional_door.name=金制次元门
-item.quartz_dimensional_door.name=私人次元门
-item.unstable_dimensional_door.name=不稳定的门
-item.oak_dimensional_door.name=扭曲之门
+item.quartz_dimensional_door.name=石英次元门
+item.unstable_dimensional_door.name=不稳定的次元门
+item.oak_dimensional_door.name=木制次元门
 
-item.rift_key=裂痕钥匙
-item.rift_signature.name=裂痕印记
-item.stabilized_rift_signature.name=裂痕印记(稳定)
-item.rift_configuration_tool.name=Rift Configuration Tool
-item.rift_remover.name=裂痕移除器
-item.rift_blade.name=裂痕之刃
+item.rift_key=裂隙之匙
+item.rift_signature.name=裂隙印记
+item.rift_signature.stored=位置已记录
+item.rift_signature.created=生成裂隙
+item.stabilized_rift_signature.name=稳定的裂隙印记
+item.stabilized_rift_signature.stored=位置已记录
+item.stabilized_rift_signature.created=生成裂隙
+item.rift_configuration_tool.name=裂隙配置工具
+item.rift_remover.name=裂隙清除器
+item.rift_remover.closing=裂隙将马上关闭
+item.rift_remover.already_closing=这个裂隙已经关闭
+item.rift_stabilizer.name=裂隙稳定器
+item.rift_stabilizer.info=在裂隙核心上使用以停止它的膨胀.
 
-item.world_thread.name=世界纤维
-item.stable_fabric.name=稳定构造
+item.rift_stabilizer.stabilized=裂隙将稳定存在并停止膨胀.
+item.rift_stabilizer.already_stabilized=这个裂隙已经稳定
+item.rift_blade.name=裂隙之刃
+item.rift_blade.rift_miss=你只能在裂隙核心之中使用这个物品
 
-item.rift_key.bound.info=绑定
-item.rift_key.unbound.info=取消绑定
+item.world_thread.name=世界线
+item.stable_fabric.name=稳定结构
 
-item.iron_dimensional_door.info=放在裂痕下方的方块上 \n来激活裂痕 \n或放在任意地点生成 \n一个口袋次元.
-item.gold_dimensional_door.info=类似于次元门 \n但它放在次元内部时 \n会保持次元的加载.
-item.quartz_dimensional_door.info=生成一个通向你 \n口袋次元的路径
-item.rift_blade.info=在裂痕上开启临时的门 \n它还拥有瞬移攻击的能力.
-item.rift_remover.info=在外露的裂痕附近使用 \n来移除它以及附近的其他 \n裂痕.
-item.rift_signature.bound.info=指向(%d, %d, %d) 位于#%d
-item.rift_signature.unbound.info=第一次点击记录一个位置; \n第二次点击在两地间创造 \n一对相互连接的裂痕.
-item.stabilized_rift_signature.bound.info=指向(%d, %d, %d) 位于#%d
-item.stabilized_rift_signature.unbound.info=首次点击记录一个位置, \n再次点击生成连接两地的 \n裂痕.
-item.unstable_dimensional_door.info=注意: 将会随机传送
-item.oak_dimensional_door.info=放在裂痕下方的方块上 \n来制造传送门, \n放在口袋次元中 \n以退出空间.
+item.woven_world_thread_boots.name=世界线编织靴
+item.woven_world_thread_helmet.name=世界线编织头盔
+item.woven_world_thread_leggings.name=世界线编织护腿
+item.woven_world_thread_chestplate.name=世界线编织胸甲
+item.rift_key.bound.info=锁定
+item.rift_key.unbound.info=解锁
+
+item.iron_dimensional_door.info=放置在裂隙下方的方块来激活裂隙，或在任意地方放置生成一个进入口袋空间的传送门.
+
+item.gold_dimensional_door.info=类似铁制次元门，不同的是它放置于口袋空间内部时将保持口袋空间的加载.
+item.quartz_dimensional_door.info=生成一个通往你的私人口袋空间的传送门.
+
+item.rift_blade.info=可以在裂隙上开启一道临时的传送门，并且可以传送攻击.
+
+item.rift_remover.info=在裸露的裂隙附近使用以移除它与它附近的裂隙.
+
+item.rift_signature.bound.info=传送至编号#%d次元的坐标 (%d, %d, %d) 
+
+item.rift_signature.unbound.info=右击可以记录一个位置，第二次右击将创建与第一位置相连接的裂隙.
+
+item.stabilized_rift_signature.bound.info=传送至编号#%d次元的坐标 (%d, %d, %d) 
+
+item.stabilized_rift_signature.unbound.info=右击可以记录一个位置,第二次右击将创建与第一位置相连接的裂隙.
+
+item.unstable_dimensional_door.info=警告: 将通向随机目标
+item.oak_dimensional_door.info=放置在裂隙下方的方块上来创建一个传送门, 或放置在任意口袋空间中用以离开这个空间.
+
+
+item.record.creepy.desc=令人毛骨悚然的 - 深渊回响
+
+
 entity.dimdoors.monolith.name=巨石
+commands.dimteleport.usage=/dimteleport <dimension> <x> <y> <z> [yaw] [pitch]
+
+commands.fabricconvert.usage=/fabricconvert
+
+commands.fabricconvert.success=所有事象结构体都已转化为黑色.
+
+commands.pocket.usage=/pocket <group> <name> [setup]
+
+commands.pocket.group_not_found=没有找到 %s 类型
+commands.pocket.template_not_found=没有找到 %s 模板
+
+commands.saveschem.usage=/saveschem <name>
+
+commands.saveschem.success=口袋空间 %s 已成功保存
+commands.generic.dimdoors.not_in_pocket_dim=你只能在口袋空间中使用这个指令.
+
+commands.generic.dimdoors.not_in_pocket=你只能在口袋空间中使用这个物品. 
+command.
+
+rifts.unlinked=这个裂隙不通向任何目标
+rifts.destinations.escape.cannot_escape_limbo=做得好, 但你可能需要一次死亡或者找到永恒结构体来逃离次元监牢.
+
+rifts.destinations.escape.not_in_pocket_dim=你只能用它来离开口袋空间!
+
+rifts.destinations.escape.did_not_use_rift=你没有使用裂隙来进入口袋空间, 所以你被关进了次元监牢!
+
+rifts.destinations.escape.rift_has_closed=你使用了一个已关闭的裂隙来进入口袋空间,所以你被关进了次元监牢!
+
+rifts.destinations.private_pocket_exit.did_not_use_rift=你没有使用裂隙来进入口袋空间,所以你被关进了次元监牢!
+
+rifts.destinations.private_pocket_exit.rift_has_closed=你使用了一个已关闭的裂隙来进入口袋空间,所以你被关进了次元监牢!
+
+rifts.entrances.rift_too_close=在接近撕裂的世界中放置次元门将非常危险. 但你仍可通过Shift+右键来继续放置, 或者将它放置在裂隙核心(超正方体)上绑定裂隙.
+
+rifts.entrances.cannot_be_placed_on_rift=这种类型的门无法放置在裂隙上.
+
+
+tools.rift_miss=你只能在裂隙核心上使用它
+tools.target_became_block=失败,这个方块位置正在被存储中.
+
+
